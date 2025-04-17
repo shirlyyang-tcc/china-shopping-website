@@ -1,6 +1,6 @@
 import { ShoppingBag } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 // Define shop item interface
 interface ShopItem {
@@ -185,8 +185,8 @@ export default function Home() {
 
       <main className="container mx-auto px-4 py-12 relative z-0">
         <div className="mb-12 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 mb-3">Discover China's Premium E-commerce Platforms</h2>
-          <p className="text-slate-600 mt-2 max-w-2xl mx-auto text-lg">Curated selection of China's finest online shopping destinations offering the best prices and quality products</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-800 mb-3">Discover China&apos;s Premium E-commerce Platforms</h2>
+          <p className="text-slate-600 mt-2 max-w-2xl mx-auto text-lg">Curated selection of China&apos;s finest online shopping destinations offering the best prices and quality products</p>
         </div>
         
         <div className="flex flex-wrap gap-3 mb-12 justify-center">
